@@ -1,0 +1,22 @@
+{
+    "testId": "d9ec2e5f-94ab-4537-863e-10a8ca9229c4",
+    "name": "My Figma Addon",
+    "version": "1.0.0",
+    "manifestVersion": 2,
+    "requirements": {
+        "apps": [
+            {
+                "name": "Express",
+                "apiVersion": 1
+            }
+        ]
+    },
+    "entryPoints": [
+        {
+            "type": "panel",
+            "id": "panel1",
+            "main": "index.html",
+            "documentSandbox": "code.js"
+        }
+    ]
+}
